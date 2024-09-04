@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TrafficLightSystem": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ContentManagementSystem": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

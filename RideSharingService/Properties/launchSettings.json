@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RideSharingService": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

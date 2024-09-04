@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BlackJackCardGame": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
