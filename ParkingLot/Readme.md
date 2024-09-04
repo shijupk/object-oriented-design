@@ -2,7 +2,8 @@
 
 Designing a parking lot system in C# following the SOLID principles involves creating classes and interfaces that encapsulate the core functionalities of a parking lot, such as vehicle management, parking spot allocation, and payment processing. Below is a high-level design followed by a complete example implementation.
 
-High-Level Design
+## High-Level Design
+
 Single Responsibility Principle (SRP)
 
 Vehicle: Represents a vehicle entering the parking lot.
@@ -23,7 +24,8 @@ Dependency Inversion Principle (DIP)
 
 High-level modules like ParkingLot should depend on abstractions (interfaces) rather than concrete implementations.
 
-Key Points:
+## Key Points
+
 Vehicle: Represents vehicles of different sizes.
 ParkingSpot: Represents parking spots that can accommodate different vehicle sizes.
 ParkingTicket: Issues and tracks tickets for vehicles parked in the lot.
