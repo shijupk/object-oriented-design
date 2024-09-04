@@ -7,56 +7,56 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Problem Statement:** Design a parking lot with multiple levels, different sizes of parking spots (compact, large, motorcycle), and different types of vehicles (car, truck, motorcycle). The system should support parking a vehicle, removing a vehicle, and calculating parking fees.
 **Key Concepts:** Inheritance, encapsulation, polymorphism, SOLID principles, design patterns like Factory and Strategy.
 
-[Source Code](./ParkingLot/README.md)
+[Source Code](/ParkingLot/README.md)
 
 ## 2. Design an Elevator System
 
 **Problem Statement:** Design an elevator system for a building with multiple floors and elevators. The system should handle requests from both inside the elevator (to go to a specific floor) and from floors (to call the elevator up or down).
 **Key Concepts:** State management, concurrency, priority queues, SOLID principles, design patterns like Observer and Command.
 
-[Source Code](./ElevatorSystem/README.md)
+[Source Code](/ElevatorSystem/README.md)
 
 ## 3. Design a Library Management System
 
 **Problem Statement:** Design a system to manage a library's inventory of books, users (members), and borrowing/lending operations. It should handle tasks like searching for a book, checking out a book, returning a book, and calculating fines.
 **Key Concepts:** Encapsulation, data modeling, SOLID principles, relationships (composition and aggregation), design patterns like Singleton and Factory.
 
-[Source Code](./LibraryManagementSystem/README.md)
+[Source Code](/LibraryManagementSystem/README.md)
 
 ## 4. Design an Online Shopping System (E-commerce)
 
 **Problem Statement:** Design an online shopping platform where users can browse products, add them to a cart, place orders, make payments, and track orders. The system should also handle inventory management and user accounts.
 **Key Concepts:** Object modeling, encapsulation, SOLID principles, design patterns like MVC (Model-View-Controller), Factory, and Strategy.
 
-[Source Code](./OnlineShoppingSystem/README.md)
+[Source Code](/OnlineShoppingSystem/README.md)
 
 ## 5. Design a Movie Ticket Booking System
 
 **Problem Statement:** Design a system for booking movie tickets. It should allow users to search for movies, view showtimes, select seats, book tickets, and make payments. The system should handle different types of seating arrangements (e.g., regular, VIP).
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Factory, and Observer.
 
-[Relative document](./MovieTicketBookingSystem/README.md)
+[Source Code](/MovieTicketBookingSystem/README.md)
 
 ## 6. Design a Social Media Platform
 
 **Problem Statement:** Design a social media platform where users can create profiles, post updates, follow other users, like/comment on posts, and view a feed of updates from people they follow.
 **Key Concepts:** Data modeling, relationships, SOLID principles, design patterns like Observer and Strategy, scalability considerations.
 
-[Relative document](/SocialMediaPlatform/README.md)
+[Source Code](/SocialMediaPlatform/README.md)
 
 ## 7. Design a File System
 
 **Problem Statement:** Design a basic file system where files and directories are represented as objects. The system should support operations like creating, deleting, and moving files and directories, as well as navigating through the directory structure.
 ****Key Concepts:**** Inheritance, polymorphism, composition, SOLID principles, design patterns like Composite and Iterator.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/FileSystem/README.md)
 
 ## 8. Design a Hotel Booking System
 
 **Problem Statement:** Design a hotel booking system that allows users to search for hotels, view room availability, make bookings, and manage their reservations. The system should also handle cancellations and payments.
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Factory and Strategy.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/HotelBookingSystem/README.md)
 
 ## 9. Design a Chess Game
 
