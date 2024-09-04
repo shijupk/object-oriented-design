@@ -5,19 +5,29 @@ Designing a Social Media Platform while adhering to the SOLID principles involve
 ## Key Features of the Social Media Platform
 
 **User Management:** Registration, authentication, profile management.
+
 **Content Management:** Posting, editing, deleting, and viewing posts (text, images, videos).
+
 **Interaction:** Liking, commenting, sharing posts.
+
 **Feed Management:** Displaying posts in a user’s feed, including filtering and sorting.
+
 **Notifications:** Alerting users about new likes, comments, followers, etc.
 
 ## Class Diagram Overview
 
 **User:** Represents a user in the system.
+
 **Post:** Represents a post made by a user.
+
 **Comment:** Represents a comment on a post.
+
 **Like:** Represents a like on a post.
+
 **Feed:** Represents a user’s feed, which aggregates posts.
+
 **Notification:** Manages notifications for users.
+
 **SocialMediaPlatform:** Orchestrates the overall functionality of the platform.
 
 ## Adherence to SOLID Principles
@@ -44,15 +54,24 @@ High-level modules like SocialMediaPlatform depend on abstractions (IUserReposit
 
 ### Design Patterns Used
 
-**1. Strategy Pattern:**  > Feed Management
+**1. Strategy Pattern:**   Feed Management
+
 The Feed class uses the Strategy pattern to allow different algorithms for generating a user's feed (e.g., chronological, based on engagement, etc.). By injecting different IFeedStrategy implementations, you can easily switch or extend feed generation logic without altering the Feed class.
+
 **2. Observer Pattern:** Notification System
+
 The Notification class uses the Observer pattern to notify users about events such as new posts, comments, likes, etc. This allows the platform to easily manage and extend notifications as new types of interactions are introduced.
+
 **4. Repository Pattern:** User Management
+
 The IUserRepository interface abstracts the data layer, providing a clean separation between business logic and data access. This makes the system easier to maintain and test.
+
 **5. Factory Pattern:** Post Creation
+
 The Factory pattern can be applied to create different types of posts (e.g., text, image, video). This helps in managing the creation logic and ensures that the Post class is not overloaded with creation logic.
+
 **6. Dependency Injection:** SocialMediaPlatform
+
 The SocialMediaPlatform class utilizes Dependency Injection (DI) to inject its dependencies (IUserRepository, IFeedStrategy, INotificationService). This promotes loose coupling and makes the system more flexible and testable.
 
 ## Summary
