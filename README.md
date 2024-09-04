@@ -63,7 +63,7 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Problem Statement:** Design a chess game where two players can play against each other. The system should manage the state of the game, validate moves, and determine the winner.
 **Key Concepts:** Object modeling, inheritance, encapsulation, SOLID principles, design patterns like State and Strategy.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/ChessGame/README.md)
 
 ## 10. Design a Ride-Sharing Service (e.g., Uber, Lyft)
 
@@ -71,35 +71,35 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Observer and Strategy, scalability considerations.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/RideSharingService/README.md)
 
 ## 11. Design a Content Management System (CMS)
 
 **Problem Statement:** Design a content management system that allows users to create, edit, publish, and manage digital content. The system should support different types of content (e.g., articles, images, videos) and user roles (e.g., admin, editor, viewer).
 **Key Concepts:** Object modeling, encapsulation, SOLID principles, design patterns like Factory and Strategy, role-based access control.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/ContentManagementSystem/README.md)
 
 ## 12. Design a Vending Machine
 
 **Problem Statement:** Design a vending machine that dispenses products when a user inserts the correct amount of money. The system should manage inventory, accept payments, and dispense change.
 **Key Concepts:** State management, encapsulation, SOLID principles, design patterns like State and Command.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/VendingMachine/README.md)
 
 ## 13. Design a Traffic Light System
 
 **Problem Statement:** Design a traffic light system for managing intersections. The system should control the timing of lights, manage multiple intersections, and handle pedestrian signals.
 **Key Concepts:** State management, concurrency, SOLID principles, design patterns like State and Observer.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/TrafficLightSystem/README.md)
 
 ## 14. Design a Restaurant Reservation System
 
 **Problem Statement:** Design a system for managing restaurant reservations, including table availability, booking management, and customer notifications.
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Strategy and Observer.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/RestaurentReservationSystem/README.md)
 
 ## 15. Design a Banking System
 
@@ -107,4 +107,8 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Key Concepts:** Data modeling, state management, SOLID principles, design patterns like Singleton and Observer, security considerations.
 These problems often require a solid understanding of OOP principles and the ability to create a design that is both flexible and maintainable.
 
-[Relative document](./Parkinglot/README.md)
+[Source Code](/BankingSystem/README.md)
+
+## 16. Design Job Scheduler
+
+[Source Code](/JobScheduler/README.md)
