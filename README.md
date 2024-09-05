@@ -7,7 +7,7 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Problem Statement:** Design a parking lot with multiple levels, different sizes of parking spots (compact, large, motorcycle), and different types of vehicles (car, truck, motorcycle). The system should support parking a vehicle, removing a vehicle, and calculating parking fees.
 **Key Concepts:** Inheritance, encapsulation, polymorphism, SOLID principles, design patterns like Factory and Strategy.
 
-[Source Code](/ParkingLot/README.md)
+[Source Code](/ParkingLot/)
 
 ## 2. Design an Elevator System
 
