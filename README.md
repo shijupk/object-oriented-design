@@ -14,56 +14,56 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Problem Statement:** Design an elevator system for a building with multiple floors and elevators. The system should handle requests from both inside the elevator (to go to a specific floor) and from floors (to call the elevator up or down).
 **Key Concepts:** State management, concurrency, priority queues, SOLID principles, design patterns like Observer and Command.
 
-[Source Code](/ElevatorSystem/README.md)
+[Source Code](/ElevatorSystem/)
 
 ## 3. Design a Library Management System
 
 **Problem Statement:** Design a system to manage a library's inventory of books, users (members), and borrowing/lending operations. It should handle tasks like searching for a book, checking out a book, returning a book, and calculating fines.
 **Key Concepts:** Encapsulation, data modeling, SOLID principles, relationships (composition and aggregation), design patterns like Singleton and Factory.
 
-[Source Code](/LibraryManagementSystem/README.md)
+[Source Code](/LibraryManagementSystem/)
 
 ## 4. Design an Online Shopping System (E-commerce)
 
 **Problem Statement:** Design an online shopping platform where users can browse products, add them to a cart, place orders, make payments, and track orders. The system should also handle inventory management and user accounts.
 **Key Concepts:** Object modeling, encapsulation, SOLID principles, design patterns like MVC (Model-View-Controller), Factory, and Strategy.
 
-[Source Code](/OnlineShoppingSystem/README.md)
+[Source Code](/OnlineShoppingSystem/)
 
 ## 5. Design a Movie Ticket Booking System
 
 **Problem Statement:** Design a system for booking movie tickets. It should allow users to search for movies, view showtimes, select seats, book tickets, and make payments. The system should handle different types of seating arrangements (e.g., regular, VIP).
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Factory, and Observer.
 
-[Source Code](/MovieTicketBookingSystem/README.md)
+[Source Code](/MovieTicketBookingSystem/)
 
 ## 6. Design a Social Media Platform
 
 **Problem Statement:** Design a social media platform where users can create profiles, post updates, follow other users, like/comment on posts, and view a feed of updates from people they follow.
 **Key Concepts:** Data modeling, relationships, SOLID principles, design patterns like Observer and Strategy, scalability considerations.
 
-[Source Code](/SocialMediaPlatform/README.md)
+[Source Code](/SocialMediaPlatform/)
 
 ## 7. Design a File System
 
 **Problem Statement:** Design a basic file system where files and directories are represented as objects. The system should support operations like creating, deleting, and moving files and directories, as well as navigating through the directory structure.
 ****Key Concepts:**** Inheritance, polymorphism, composition, SOLID principles, design patterns like Composite and Iterator.
 
-[Source Code](/FileSystem/README.md)
+[Source Code](/FileSystem/)
 
 ## 8. Design a Hotel Booking System
 
 **Problem Statement:** Design a hotel booking system that allows users to search for hotels, view room availability, make bookings, and manage their reservations. The system should also handle cancellations and payments.
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Factory and Strategy.
 
-[Source Code](/HotelBookingSystem/README.md)
+[Source Code](/HotelBookingSystem/)
 
 ## 9. Design a Chess Game
 
 **Problem Statement:** Design a chess game where two players can play against each other. The system should manage the state of the game, validate moves, and determine the winner.
 **Key Concepts:** Object modeling, inheritance, encapsulation, SOLID principles, design patterns like State and Strategy.
 
-[Source Code](/ChessGame/README.md)
+[Source Code](/ChessGame/)
 
 ## 10. Design a Ride-Sharing Service (e.g., Uber, Lyft)
 
@@ -71,35 +71,35 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Observer and Strategy, scalability considerations.
 
-[Source Code](/RideSharingService/README.md)
+[Source Code](/RideSharingService/)
 
 ## 11. Design a Content Management System (CMS)
 
 **Problem Statement:** Design a content management system that allows users to create, edit, publish, and manage digital content. The system should support different types of content (e.g., articles, images, videos) and user roles (e.g., admin, editor, viewer).
 **Key Concepts:** Object modeling, encapsulation, SOLID principles, design patterns like Factory and Strategy, role-based access control.
 
-[Source Code](/ContentManagementSystem/README.md)
+[Source Code](/ContentManagementSystem/)
 
 ## 12. Design a Vending Machine
 
 **Problem Statement:** Design a vending machine that dispenses products when a user inserts the correct amount of money. The system should manage inventory, accept payments, and dispense change.
 **Key Concepts:** State management, encapsulation, SOLID principles, design patterns like State and Command.
 
-[Source Code](/VendingMachine/README.md)
+[Source Code](/VendingMachine/)
 
 ## 13. Design a Traffic Light System
 
 **Problem Statement:** Design a traffic light system for managing intersections. The system should control the timing of lights, manage multiple intersections, and handle pedestrian signals.
 **Key Concepts:** State management, concurrency, SOLID principles, design patterns like State and Observer.
 
-[Source Code](/TrafficLightSystem/README.md)
+[Source Code](/TrafficLightSystem/)
 
 ## 14. Design a Restaurant Reservation System
 
 **Problem Statement:** Design a system for managing restaurant reservations, including table availability, booking management, and customer notifications.
 **Key Concepts:** Object modeling, state management, SOLID principles, design patterns like Strategy and Observer.
 
-[Source Code](/RestaurentReservationSystem/README.md)
+[Source Code](/RestaurentReservationSystem/)
 
 ## 15. Design a Banking System
 
@@ -107,8 +107,8 @@ Object-oriented design (OOD) problems are a common feature in technical intervie
 **Key Concepts:** Data modeling, state management, SOLID principles, design patterns like Singleton and Observer, security considerations.
 These problems often require a solid understanding of OOP principles and the ability to create a design that is both flexible and maintainable.
 
-[Source Code](/BankingSystem/README.md)
+[Source Code](/BankingSystem/)
 
 ## 16. Design Job Scheduler
 
-[Source Code](/JobScheduler/README.md)
+[Source Code](/JobScheduler/)
