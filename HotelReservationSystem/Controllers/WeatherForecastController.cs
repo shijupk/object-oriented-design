@@ -1,33 +1,64 @@
+using HotelReservationSystem.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HotelReservationSystem.Controllers
+namespace HotelReservationSystem.Controllers;
+
+[ApiController]
+[Route("[controller]")]
+public class BookingController : ControllerBase
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    
+
+    private readonly ILogger<BookingController> _logger;
+
+    private readonly IBookingService _bookingService;
+
+    public BookingController(IBookingService bookingService)
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        _bookingService = bookingService;
+    }
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    [HttpPost]
+    public IActionResult CreateBooking([FromBody] CreateBookingRequest request)
+    {
+        try
         {
-            _logger = logger;
+            var booking =
+                _bookingService.CreateBooking(request.UserId, request.RoomId, request.CheckIn, request.CheckOut);
+            return Ok(booking);
         }
-
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        catch (Exception ex)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return BadRequest(ex.Message);
         }
+    }
+
+    [HttpPost("{bookingId}/cancel")]
+    public IActionResult CancelBooking(int bookingId)
+    {
+        try
+        {
+            _bookingService.CancelBooking(bookingId);
+            return Ok("Booking cancelled successfully.");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("user/{userId}")]
+    public async Task<IActionResult> GetUserBookings(int userId)
+    {
+        var bookings = await _bookingService.GetUserBookings(userId);
+        return Ok(bookings);
+    }
+
+    public class CreateBookingRequest
+    {
+        public int UserId { get; set; }
+        public int RoomId { get; set; }
+        public DateTime CheckIn { get; set; }
+        public DateTime CheckOut { get; set; }
     }
 }
