@@ -40,6 +40,7 @@ public class Program
         {
             Console.WriteLine(ex.Message); // Should print foreign key violation error
         }
+
         // Use BasicQueryStrategy to get all rows
         var basicStrategy = new BasicQueryStrategy();
         var allUsers = db.SelectFromTable("Users", basicStrategy);
@@ -48,6 +49,7 @@ public class Program
         {
             Console.WriteLine($"{user.Columns["UserId"]}: {user.Columns["Name"]} ({user.Columns["Email"]})");
         }
+
         // Use FilterByColumnStrategy to filter users by name
         var filterByNameStrategy = new FilterByColumnStrategy("Name", "Jane Doe");
         var filteredUsers = db.SelectFromTable("Users", filterByNameStrategy);
@@ -67,6 +69,5 @@ public class Program
         {
             Console.WriteLine($"{row["Users.Name"]} ({row["Users.Email"]}) - Order Amount: {row["Orders.Amount"]}");
         }
-
     }
 }

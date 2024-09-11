@@ -5,9 +5,8 @@ namespace InMemoryDatabase.Features;
 public class Table : ITable
 {
     private readonly string _autoIncrementColumn;
-    private int _autoIncrementId = 1;
     private readonly string _primaryKey;
-    public List<string> ColumnNames { get; }
+    private int _autoIncrementId = 1;
     public List<Row> Rows { get; } = [];
 
     public Table(string name, List<string> columnNames, string autoIncrementColumn = null, string primaryKey = null)
@@ -26,6 +25,8 @@ public class Table : ITable
             throw new Exception($"Primary key column {_primaryKey} is not part of the table definition.");
         }
     }
+
+    public List<string> ColumnNames { get; }
 
     public string Name { get; }
 

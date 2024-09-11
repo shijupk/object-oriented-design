@@ -97,7 +97,8 @@ public class InMemoryDatabase : IDatabase
     }
 
     // New method for performing joins
-    public List<Dictionary<string, object>> JoinTables(string table1Name, string table2Name, string column1, string column2, IJoinStrategy joinStrategy)
+    public List<Dictionary<string, object>> JoinTables(string table1Name, string table2Name, string column1,
+        string column2, IJoinStrategy joinStrategy)
     {
         if (_tables.ContainsKey(table1Name) && _tables.ContainsKey(table2Name))
         {
@@ -106,9 +107,7 @@ public class InMemoryDatabase : IDatabase
 
             return joinStrategy.Execute(table1, table2, column1, column2);
         }
-        else
-        {
-            throw new Exception($"One or both of the tables {table1Name} or {table2Name} do not exist.");
-        }
+
+        throw new Exception($"One or both of the tables {table1Name} or {table2Name} do not exist.");
     }
 }
